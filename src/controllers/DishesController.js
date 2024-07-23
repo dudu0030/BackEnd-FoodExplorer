@@ -19,7 +19,7 @@ class DishesController {
 
         await knex("tags").insert(tagsInsert);
 
-        response.json();
+        return response.json();
 
     }
 
